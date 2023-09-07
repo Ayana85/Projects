@@ -8,14 +8,11 @@ body {
     font-size: 15px;
     background-color: hsl(0, 0%, 98%);
     color: hsl(229, 6%, 66%);
-    /* min-height: 100vh; */
-    /* overflow: hidden; */
 }
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 3rem 2rem;
-    /* min-height: 100vh; */
 }
 .header {
     text-align: center;
@@ -42,8 +39,7 @@ body {
 }
 .card {
     background-color: #fff;
-    /* padding: 2rem; */
-    box-shadow: 0 10px 20px #00000030, 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px #00000030;
     border-radius: 7px;
     padding: 35px;
     text-align: right;
@@ -99,6 +95,5 @@ body {
     .card {
         padding: 20px;
     }
-    
     
 }
